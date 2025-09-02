@@ -598,8 +598,19 @@ max-width: 375px;
   }
 }
 .wrapper{
+  margin-left: 320px;
+  width: 1280px;
+  height: 74px;
+ 
+}
+.main-info{
+  margin-left: 976px;
+
+
+
 
 }
+
 
 
 }
