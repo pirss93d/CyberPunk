@@ -640,3 +640,9 @@ MOBILE
   font-weight: 700;
   color: #09d4d4;
 }
+.block-two_img {
+  width: 320px;
+  height: 196px;
+  background-color: red;
+  border: 1px solid #f8f200;
+}
