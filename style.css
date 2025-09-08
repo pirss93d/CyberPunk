@@ -640,9 +640,132 @@ MOBILE
   font-weight: 700;
   color: #09d4d4;
 }
+.block-two_img:nth-child(3) {
+  margin-top: 70px;
+}
+.block-two_img:nth-child(4) {
+  margin-top: 32px;
+}
 .block-two_img {
-  width: 320px;
+  max-width: 320px;
   height: 196px;
-  background-color: red;
-  border: 1px solid #f8f200;
+}
+.block-two_img:last-child {
+  margin-top: 32px;
+  height: 424px;
+}
+
+/*Block Free */
+.main-block_free {
+  margin: 0 auto;
+  width: 320px;
+  height: 1071px;
+  background-color: #961ca1;
+  /* background-image: url("img/blockFree/Block-free_fon.png"); */
+}
+
+.block_free-header {
+  width: 320px;
+  height: 70px;
+}
+.block_free-action {
+  margin-top: 6px;
+  margin-left: 12px;
+  position: absolute;
+}
+.block-free_playGame {
+  width: 296px;
+  height: 130.85px;
+  margin-left: 12px;
+  margin-top: 55px;
+}
+
+.block_free-gameInfo:nth-child(4) {
+  font-family: "Archangelsk";
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 25.15px;
+  margin-left: 12px;
+  width: 296px;
+  height: 31px;
+}
+.block_free-gameInfo:nth-child(5) {
+  font-family: "Roboto";
+  line-height: 32px;
+  font-size: 16px;
+  width: 296px;
+  height: 213px;
+  margin-top: 25px;
+  margin-left: 12px;
+  background-color: #65b916;
+  font-weight: 400;
+}
+.block_free-textColor {
+  color: #09d4d4;
+  font-weight: 700;
+}
+
+.block_free-forma {
+  margin-top: 70px;
+  margin-left: 12px;
+  width: 296px;
+  height: 381px;
+  background-color: coral;
+}
+
+.free_forma-name {
+  font-family: "Roboto";
+  background-color: transparent;
+  width: 296px;
+  height: 33px;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: #777777;
+}
+
+.free_forma-email {
+  font-family: "Roboto";
+  background-color: transparent;
+  margin-top: 37px;
+  width: 296px;
+  height: 33px;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: #777777;
+}
+
+.block_free-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 295px;
+  height: 119px;
+  margin-top: 35px;
+  border: 1px dashed #777777;
+  cursor: pointer;
+}
+.free-screen_text {
+  white-space: nowrap;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: underline;
+  width: 166px;
+  height: 19px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.block-free_btn {
+  width: 182px;
+  height: 60px;
+  background-image: url("img/blockFree/free_btn.png");
+  border: none;
+  cursor: pointer;
 }
