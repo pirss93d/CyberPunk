@@ -660,8 +660,7 @@ MOBILE
   margin: 0 auto;
   width: 320px;
   height: 1071px;
-  background-color: #961ca1;
-  /* background-image: url("img/blockFree/Block-free_fon.png"); */
+  background-image: url("img/blockFree/Block-free_fon.png");
 }
 .block-free_form {
   display: flex;
@@ -701,8 +700,8 @@ MOBILE
   height: 213px;
   margin-top: 25px;
   margin-left: 12px;
-  background-color: #65b916;
   font-weight: 400;
+  color: #ffffff;
 }
 .block_free-textColor {
   color: #09d4d4;
@@ -714,7 +713,6 @@ MOBILE
   margin-left: 12px;
   width: 296px;
   height: 381px;
-  background-color: coral;
 }
 
 .free_forma-name {
@@ -779,21 +777,21 @@ MOBILE
   margin-left: 12px;
 }
 
-.block-free_radio {
+.block-free-checkbox {
+  margin-top: 14px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Roboto";
+  line-height: 100%;
+  font-size: 12px;
   width: 280px;
   height: 14px;
+  color: #ffffff;
 }
-.block-free_radio .tsa {
-  display: none;
-}
-.block-free_radio .tsa {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 2px solid #333;
-  background-color: white;
-  margin-right: 8px;
-  vertical-align: middle;
-  box-sizing: border-box;
-  cursor: pointer;
+#checkbox {
+  width: 14px;
+  height: 14px;
+  color: yellow;
 }
