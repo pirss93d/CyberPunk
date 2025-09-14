@@ -832,4 +832,47 @@ MOBILE
   margin-top: 25px;
   width: 296px;
   height: 44px;
+  border: 0.5px solid #000;
+}
+
+.block_four-characteristics {
+  margin-top: 70px;
+  margin-left: 12px;
+  width: 296px;
+  height: 587px;
+  background-color: coral;
+}
+.four_characteristics-block:nth-child(1) {
+  width: 296px;
+  height: 62px;
+  border: 0.5px solid #000;
+}
+.four_characteristics-block:nth-child(2) {
+  font-family: "Roboto";
+  width: 296px;
+  height: 245px;
+  font-size: 16px;
+  border: 0.5px solid #000;
+}
+.four_characteristics-block:nth-child(3) {
+  font-family: "Roboto";
+  font-size: 16px;
+  width: 296px;
+  height: 130px;
+  border: 0.5px solid #000;
+  font-weight: 400;
+}
+.characteristics_mini-menu {
+  width: 296px;
+  height: 40px;
+  background-color: #09d4d4;
+}
+.characteristics_mini-menu:nth-child(1) {
+  background-color: yellow;
+}
+.characteristics_mini-menu:nth-child(2) {
+  background-color: rgb(40, 180, 12);
+}
+.characteristics_mini-menu:nth-child(3) {
+  background-color: rgb(12, 139, 212);
 }
