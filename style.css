@@ -726,6 +726,7 @@ MOBILE
   border-right: none;
   border-left: none;
   border-color: #777777;
+  color: #ffffff;
 }
 
 .free_forma-email {
@@ -740,6 +741,7 @@ MOBILE
   border-right: none;
   border-left: none;
   border-color: #777777;
+  color: #ffffff;
 }
 
 .block_free-screen {
@@ -794,4 +796,40 @@ MOBILE
   width: 14px;
   height: 14px;
   color: yellow;
+}
+
+/*Block_four*/
+
+.main-block_four {
+  margin: 0 auto;
+  max-width: 320px; /*В администрирование*/
+  height: 1110px;
+  background-color: #68045f;
+}
+.block_four-wrapper {
+  width: 320px;
+  height: 70px;
+}
+
+.block_four-info {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 1040px;
+  background-color: #f103e6;
+}
+.block_four-brend {
+  margin-top: 70px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 296px;
+  height: 273px;
+  border: 0.5px solid #000;
+}
+
+.block_bren-img {
+  margin-top: 25px;
+  width: 296px;
+  height: 44px;
 }
