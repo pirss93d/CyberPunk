@@ -368,6 +368,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
 }
 .main-block_one {
   height: 713px;
@@ -614,7 +615,6 @@ MOBILE
   margin-top: 50px;
   width: 320px;
   height: 1480px;
-  background-color: rgb(223, 21, 230);
 }
 .block-two_intro {
   font-family: "Archangelsk";
@@ -657,7 +657,7 @@ MOBILE
 
 /*Block Free */
 .main-block_free {
-  margin: 0 auto;
+  margin-top: 70px;
   width: 320px;
   height: 1071px;
   background-image: url("img/blockFree/Block-free_fon.png");
@@ -914,7 +914,183 @@ MOBILE
 /*main-block-six ********************************/
 
 .main-block-six {
+  display: flex;
+  flex-direction: column;
   width: 320; /*в Админку*/
   height: 785px;
-  background-color: #05d880;
+  background-color: #000000;
+}
+.block_six-img {
+  width: 320px;
+  height: 198px;
+}
+.block_six-price {
+  font-family: "Archangelsk";
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 12px;
+  width: 296px;
+  height: 62px;
+  color: #ffffff;
+}
+.block_six-info {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  margin-top: 25px;
+  margin-left: 12px;
+  width: 296px;
+  height: 169px;
+}
+
+.six_info-menu {
+  width: 187px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(82, 190, 220, 1);
+}
+
+.menu_block-one {
+  display: flex;
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  width: 296px;
+  height: 24px;
+}
+.menu_block-two {
+  display: flex;
+  margin-top: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  width: 296px;
+  height: 38px;
+}
+.menu_block-three {
+  display: flex;
+  margin-top: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  width: 296px;
+  height: 34px;
+}
+.block_six-info img {
+  width: 24px;
+  height: 24px;
+}
+.block_six-info span {
+  margin-left: 18px;
+}
+
+.blcok_six-platform {
+  margin-top: 40px;
+  margin-left: 12px;
+  width: 296px;
+  height: 180.27px;
+}
+
+.six_platform-price {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  width: 255px;
+  height: 28.15px;
+  color: rgba(82, 190, 220, 1);
+}
+
+.six_platform-game {
+  margin-top: 25.85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 296px;
+  height: 126.27px;
+  line-height: 1;
+}
+
+.six_stend-header {
+  display: flex;
+  justify-content: space-between;
+  width: 296px;
+  height: 36px;
+}
+
+.six-pc {
+  width: 62px;
+  height: 35.19px;
+}
+.six-xbox {
+  width: 178px;
+  height: 35.19px;
+}
+.six_stend-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 296px;
+  height: 51px;
+}
+
+.six-stadia {
+  width: 58px;
+  height: 50.27px;
+}
+.six-ps4 {
+  width: 168px;
+  height: 35.19px;
+}
+
+/* main_footer ***************************************** */
+.main_footer {
+  display: flex;
+  flex-direction: column;
+  width: 322px;
+  height: 333px;
+}
+.footer_logo {
+  margin-top: 40px;
+  margin-left: 61px;
+  width: 200px;
+  height: 50px;
+}
+
+.footer_logo-CD {
+  margin-top: 25px;
+  margin-left: 103px;
+  width: 116.25px;
+  height: 50px;
+}
+
+.footer_block-info {
+  margin-top: 25px;
+  width: 320px;
+  height: 103px;
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.footer_info {
+  margin-top: 25px;
+  margin-left: 123px;
+  font-family: "Roboto";
+}
+.footer_info-politica {
+  margin-top: 15px;
+  margin-left: 39px;
+  font-family: "Roboto";
+}
+.footer_CD-Projekt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 100%;
+  vertical-align: middle;
+  letter-spacing: 0%;
+  font-size: 12px;
+  color: #ffffff;
+  width: 320px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 1);
 }
