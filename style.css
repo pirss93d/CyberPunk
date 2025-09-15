@@ -804,7 +804,7 @@ MOBILE
   margin: 0 auto;
   max-width: 320px; /*В администрирование*/
   height: 1110px;
-  background-color: #68045f;
+  background-color: rgba(248, 242, 0, 1);
 }
 .block_four-wrapper {
   width: 320px;
@@ -816,7 +816,6 @@ MOBILE
   flex-direction: column;
   width: 320px;
   height: 1040px;
-  background-color: #f103e6;
 }
 .block_four-brend {
   margin-top: 70px;
@@ -825,54 +824,97 @@ MOBILE
   flex-direction: column;
   width: 296px;
   height: 273px;
-  border: 0.5px solid #000;
 }
 
 .block_bren-img {
   margin-top: 25px;
   width: 296px;
   height: 44px;
-  border: 0.5px solid #000;
 }
 
 .block_four-characteristics {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-left: 12px;
   width: 296px;
   height: 587px;
-  background-color: coral;
 }
 .four_characteristics-block:nth-child(1) {
+  font-family: "Archangelsk";
+  font-size: 30px;
   width: 296px;
   height: 62px;
-  border: 0.5px solid #000;
 }
 .four_characteristics-block:nth-child(2) {
+  margin-top: 25px;
   font-family: "Roboto";
+  font-weight: 400;
+  line-height: 32px;
   width: 296px;
   height: 245px;
   font-size: 16px;
-  border: 0.5px solid #000;
 }
 .four_characteristics-block:nth-child(3) {
   font-family: "Roboto";
-  font-size: 16px;
+  margin-top: 25px;
   width: 296px;
   height: 130px;
-  border: 0.5px solid #000;
-  font-weight: 400;
 }
-.characteristics_mini-menu {
+.four-info:nth-child(1) {
+  display: flex;
+  color: #000;
   width: 296px;
-  height: 40px;
-  background-color: #09d4d4;
+  height: 24px;
 }
-.characteristics_mini-menu:nth-child(1) {
-  background-color: yellow;
+
+.four-info:nth-child(2) {
+  margin-top: 15px;
+  display: flex;
+  width: 296px;
+  height: 38px;
+  color: #000;
 }
-.characteristics_mini-menu:nth-child(2) {
-  background-color: rgb(40, 180, 12);
+.four-info_img {
+  width: 24px;
+  height: 24px;
 }
-.characteristics_mini-menu:nth-child(3) {
-  background-color: rgb(12, 139, 212);
+.four-info:nth-child(3) {
+  margin-top: 15px;
+  display: flex;
+  width: 293px;
+  height: 38px;
+  color: #000;
+}
+.four-info_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  margin-left: 18px;
+  letter-spacing: 0%;
+}
+
+.four_info-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 12px;
+  width: 184px;
+  height: 60px;
+  background-color: #000000;
+  color: yellow;
+  cursor: pointer;
+  border: none;
+}
+.four_info-btn:hover {
+  opacity: 0.5;
+}
+
+/*main-block-six ********************************/
+
+.main-block-six {
+  width: 320; /*в Админку*/
+  height: 785px;
+  background-color: #05d880;
 }
