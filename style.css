@@ -1203,5 +1203,25 @@ MOBILE
   }
 
   .block_free-action {
+    margin-top: 15px;
+    margin-left: 36px;
+  }
+
+  .block_free-gameInfo:nth-child(4) {
+    margin-top: 15px;
+    margin-left: 36px;
+    width: 460px;
+    height: 126px;
+    background-color: rebeccapurple;
+    font-size: 62px;
+  }
+
+  .block-free_playGame {
+    margin-top: 95px;
+    margin-left: 528px;
+    position: absolute;
+    width: 460px;
+    height: 858px;
+    background-color: rgb(18, 69, 179);
   }
 }
