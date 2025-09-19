@@ -1107,6 +1107,9 @@ MOBILE
 .block-two_bigIMG {
   display: none;
 }
+.three-header_1024 {
+  display: none;
+}
 
 /* ДАльше медиа запросы для планшета и пк ******************* */
 
@@ -1186,5 +1189,19 @@ MOBILE
     background-color: red;
     height: 424px;
     background-image: url("img/blockTwo/Img1024/img_three1024.png");
+  }
+  .main-block_free {
+    width: 1024px;
+    height: 1093px;
+  }
+  .block_free-header .mobil_header {
+    display: none;
+  }
+
+  .three-header_1024 {
+    display: block;
+  }
+
+  .block_free-action {
   }
 }

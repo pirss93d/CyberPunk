@@ -102,13 +102,29 @@
 
       <div class="main-block_free">
         <div class="block_free-header">
-          <img src="img/blockFree/Block-free_header.png" alt="#" />
+          <img
+            src="img/blockFree/Block-free_header.png"
+            alt="#"
+            class="mobil_header"
+          />
+          <img
+            src="img/blockTwo/Img1024/three/three-header.png"
+            alt=""
+            class="three-header_1024"
+          />
         </div>
-        <img
-          src="img/blockFree/action_icon.png"
-          alt="#"
-          class="block_free-action"
-        />
+        <picture>
+          <source
+            srcset="img/blockTwo/Img1024/three/action.svg"
+            class="block_free-action"
+            media="(min-width:1024px)"
+          />
+          <img
+            src="img/blockFree/action_icon.png"
+            alt="#"
+            class="block_free-action"
+          />
+        </picture>
         <div class="block-free_playGame">
           <img src="img/blockFree/pleyGame.png" alt="#" />
         </div>
@@ -265,5 +281,6 @@
         </div>
       </div>
     </main>
+    <script src="src/app.js"></script>
   </body>
 </html>
